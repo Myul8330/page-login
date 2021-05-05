@@ -22,7 +22,7 @@
  }
 /*body =======================================*/
 body {
-    background: linear-gradient(40deg, rgb(0, 45, 143),  rgb(3, 114, 218));
+    background: linear-gradient(10deg, rgb(13, 18, 83),  rgb(0, 132, 255));
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
@@ -49,7 +49,7 @@ body {
     display:flex; 
     top: 0;
     left: 5rem;
-    border: 3px solid var(--gray-dark);
+    border: 0.1rem solid var(--gray-dark);
 }
 .profile-pic {
     width: 100px;
@@ -64,7 +64,7 @@ h2 {
     position: relative;
     text-align: center;
     justify-content: center;
-    padding: 0.2rem;
+    padding: 0.3rem;
 }
 /*Form =======================================*/
 #iemail {
