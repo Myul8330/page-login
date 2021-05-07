@@ -48,7 +48,7 @@ body {
     border-radius: 50%;
     display:flex; 
     top: 0;
-    left: 5rem;
+    left: 5.6rem;
     border: 0.1rem solid var(--gray-dark);
 }
 .profile-pic {
@@ -84,4 +84,39 @@ h2 {
 .space {
     width: 100px;
     height: 10px;
+}
+/*Account =======================================*/
+.help-field {
+    font-size: 12px;
+    display:inline-block;
+    margin: 1.3rem;
+}
+a{
+    text-decoration: none;
+    color: var(--gray-dark);
+}
+.help-field :hover{
+    text-decoration: underline;
+    text-decoration-color: var(--gray-dark);
+}
+/*Button =======================================*/
+.btn-login {
+    width: 100%;
+    min-width: 100px;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+   display: flex;
+}
+input[type="button"]{
+    top: 0;
+    height: 3rem;
+    width: 70%;
+    border-radius: 0.25rem;
+    color: #fff;
+    background: linear-gradient(3deg, rgb(14, 23, 138),  rgb(0, 132, 255));
+    cursor: pointer;
+}
+input[id="button"] :hover{
+    background-color: aqua;
 }
