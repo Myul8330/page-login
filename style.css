@@ -22,7 +22,7 @@
  }
 /*body =======================================*/
 body {
-    background: linear-gradient(10deg, rgb(13, 18, 83),  rgb(0, 132, 255));
+    background: linear-gradient(10deg, rgb(0, 4, 65),  rgb(0, 85, 165));
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
@@ -46,10 +46,11 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    display:flex; 
+    display:flex;
     top: 0;
     left: 5.6rem;
     border: 0.1rem solid var(--gray-dark);
+    box-shadow: 5px, 5px, 15px black;
 }
 .profile-pic {
     width: 100px;
@@ -89,11 +90,11 @@ h2 {
 .help-field {
     font-size: 12px;
     display:inline-block;
-    margin: 1.3rem;
+    margin: 1.2rem;
 }
 a{
     text-decoration: none;
-    color: var(--gray-dark);
+    color: rgb(38, 38, 179);
 }
 .help-field :hover{
     text-decoration: underline;
@@ -114,9 +115,9 @@ input[type="button"]{
     width: 70%;
     border-radius: 0.25rem;
     color: #fff;
-    background: linear-gradient(3deg, rgb(14, 23, 138),  rgb(0, 132, 255));
+    background: linear-gradient(0deg, rgb(14, 23, 138),  rgb(0, 132, 255));
     cursor: pointer;
 }
-input[id="button"] :hover{
-    background-color: aqua;
+input[type="button"]:hover{
+    background: linear-gradient(90deg, rgb(9, 19, 163),  rgb(62, 43, 131));
 }
